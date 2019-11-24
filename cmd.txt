@@ -1,0 +1,12 @@
+git init
+git config --global user.name"you_name"
+git config --global user.email"you_email@qq.com"
+ssh-keygen -t -ras -C "you_email@qq.com"
+cat ~/.ssh/id_rsa.pub
+
+git remote add origin git@...
+
+touch readme.txt
+git add readme.txt
+git commit -m"add readme.txt"
+git push -u origin master
