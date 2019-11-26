@@ -32,5 +32,3 @@ git config --global (基本不用,给整个计算机一次性设置)
 git config --local --unset user.name
 
 git checkout -- hello.txt (放弃修改)
-
-
