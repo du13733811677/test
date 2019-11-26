@@ -1,4 +1,12 @@
-git init
+git init(初始化完成之后，你的文件是可以受到GIT所管理，并且给你初始化一个master一个分支)（.git 是版本控制目录）
+
+git rm --cached(暂存区到工作区，撤回去)
+
+add(工作区到暂存区) cache（暂存区到工作区）
+commit(暂存区到对象区)
+
+git add . (当前目录全部提交)
+
 git config --global user.name"you_name"
 git config --global user.email"you_email@qq.com"
 ssh-keygen -t rsa -C "you_email@qq.com"
