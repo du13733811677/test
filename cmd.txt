@@ -44,5 +44,7 @@ git rm 后悔 ：1.恢复到工作区 git reset HEAD hello.txt 2.git checkout --
 查看分支 git branch
 创建分支 git branch +名字
 切换分支 git checkout +名字
-删除分支 git branch -d +名字
+删除分支 git branch -d +名字（在其他分支才可以删除，删除分支之前建议先合并） 强行删除 git branch -D
 创建新分支并切换 git checkout -b +名字
+
+合并 merger
