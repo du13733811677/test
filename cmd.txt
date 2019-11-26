@@ -18,3 +18,19 @@ touch readme.txt
 git add readme.txt
 git commit -m"add readme.txt"
 git push -u origin master
+
+
+
+git log 查看提交日志  -次数（最近的几次）
+git log --pretty=oneline
+git log --pretty=format:"%an ,%ar : %s"
+
+git config --global (基本不用,给整个计算机一次性设置)
+		   --system （给当前用户一次设置）
+		   --local  （给当前项目一次性设置）
+
+git config --local --unset user.name
+
+git checkout -- hello.txt (放弃修改)
+
+
